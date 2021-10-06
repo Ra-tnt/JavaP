@@ -11,8 +11,12 @@ System.out.Println(check(name));
 }
 
 public static void myFunc(String name){
-
+	
+	if(check(name)==true)
 	System.out.println(name);
+
+	else
+		System.out.println("the name is not like what we expected");
 }
 }
 
